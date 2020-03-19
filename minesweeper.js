@@ -13,7 +13,9 @@ var gGame = null;
 function initGame() {
     document.querySelector('.losingModal').style.display = 'none';
     document.querySelector('.winningModal').style.display = 'none';
-    document.querySelector('.askHint').style.display = 'inline';
+    document.querySelector('.hint1Butt').style.display = 'block';
+    document.querySelector('.hint2Butt').style.display = 'block';
+    document.querySelector('.hint3Butt').style.display = 'block';
 
     gIsHintOn = false;
     gGame = {
